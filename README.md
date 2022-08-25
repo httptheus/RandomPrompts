@@ -1,2 +1,2 @@
 ## Random Prompts 
-Clique para resolver um exercício aleatório! 
+Resolva um exercício aleatório com um clique! 
