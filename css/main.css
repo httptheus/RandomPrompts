@@ -2,6 +2,11 @@
     font-family: monospace;
 }
 
+::selection{
+    color: white;
+    background-color: black;
+}
+
 body{
     display: flex;
     flex-direction: column;
@@ -37,5 +42,5 @@ main #btnGerarPrompt{
     background-color: deeppink;
 }
 
-#btnGerarPrompt:hover { background-color: rgb(255, 82, 174);}
-#btnGerarPrompt:active { background-color: black;}
+#btnGerarPrompt:hover { background-color: rgb(255, 82, 174); }
+#btnGerarPrompt:active { background-color: black; }
