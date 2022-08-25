@@ -1,0 +1,49 @@
+body{
+    animation: change-background 30s ease-in infinite;
+}
+
+@keyframes change-background{
+    0% {
+        background-color: rgb(255, 60, 60);
+    }
+
+    10% {
+        background-color: rgb(255, 193, 60);
+    }
+
+    20% {
+        background-color: rgb(193, 255, 60);
+    }
+
+    30% {
+        background-color: rgb(60, 255, 76);
+    }
+
+    40% {
+        background-color: rgb(60, 252, 255);
+    }
+
+    50% {
+        background-color: rgb(60, 112, 255);
+    }
+
+    60% {
+        background-color: rgb(125, 60, 255);
+    }
+
+    70% {
+        background-color: rgb(213, 60, 255);
+    }
+
+    80% {
+        background-color: rgb(252, 60, 255);
+    }
+
+    90% {
+        background-color: rgb(255, 60, 148);
+    }
+
+    100% {
+        background-color: rgb(255, 60, 60);
+    }
+}
