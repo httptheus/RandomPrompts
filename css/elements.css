@@ -1,3 +1,7 @@
+#janelaPrompt *{
+    text-align: center;
+}
+
 #janelaPrompt{
     display: flex;
     flex-direction: column;
