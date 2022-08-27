@@ -11,10 +11,8 @@ titulo.setAttribute('id', 'tituloPrompt')
 let instr = document.createElement('p')                 //Criando elementos de janela dinamicamente.
 instr.setAttribute('id', 'instrucoesPrompt')
 
-let botaoFechar = document.createElement('input')       //Criando elementos de janela dinamicamente.
-botaoFechar.setAttribute('type', 'button')
-botaoFechar.setAttribute('value')
-botaoFechar.value = 'Fechar'
+let botaoFechar = document.createElement('button')       //Criando elementos de janela dinamicamente.
+botaoFechar.innerHTML = 'Fechar'
 botaoFechar.setAttribute('id', 'btnFecharJanela')
 botaoFechar.addEventListener('click', fecharJanela)
 
