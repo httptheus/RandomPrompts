@@ -13,7 +13,8 @@ instr.setAttribute('id', 'instrucoesPrompt')
 
 let botaoFechar = document.createElement('input')       //Criando elementos de janela dinamicamente.
 botaoFechar.setAttribute('type', 'button')
-botaoFechar.setAttribute('value', 'Fechar')
+botaoFechar.setAttribute('value')
+botaoFechar.value = 'Fechar'
 botaoFechar.setAttribute('id', 'btnFecharJanela')
 botaoFechar.addEventListener('click', fecharJanela)
 
