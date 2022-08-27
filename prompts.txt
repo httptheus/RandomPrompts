@@ -74,3 +74,7 @@ elementos através de um input em uma lista. Um outro input de busca será utili
 verificar se há um elemento já adicionado na lista. O resultado deverá ser exibido 
 assim que o usuário realizar a busca. Permita com que o usuário também consiga 
 deletar qualquer índice existente.
+
+#015 - じゃんけんぽん!: Crie um simulador de pedra, papel e tesoura, onde o usuário 
+consiga selecionar um movimento dentre os três contra o algoritmo. O resultado, 
+dependendo se o usuário ganhou ou não, deve ser mostrado na tela.
