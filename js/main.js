@@ -154,6 +154,30 @@ function gerarPrompt(){     //Função principal: exibe um prompt aleatório.
             consiga selecionar um movimento dentre os três contra o algoritmo. O resultado, 
             dependendo se o usuário ganhou ou não, deve ser mostrado na tela.`
         break
+
+        case 16:
+            titulo.innerHTML = `#016 - Player de Vídeo`
+            instr.innerHTML = `Crie uma página que contenha dois vídeos diferentes. 
+            Os dois vídeos não terão o parâmetro 'controls' por padrão. Crie 
+            os seguintes botões na tela: play/pause; aumentar e diminuir volume; habilitar 
+            tela cheia e aumentar e diminuir tamanho do vídeo. Com JavaScript, faça com que 
+            os botões executem suas devidas funções para simular um player de vídeo.`
+        break
+
+        case 17:
+            titulo.innerHTML = `#017 - Criar Post`
+            instr.innerHTML = `Crie uma página onde o usuário consiga criar uma postagem. 
+            O usuário poderá anexar uma foto e inserir uma legenda. Um botão 'postar', quando 
+            pressionado, fará com que a postagem que o usuário criou apareça na tela. 
+            Uma vez que o post foi criado, um campo para inserir comentários estará disponível, 
+            permitindo o usuário comentar na própria postagem. Crie condições para a criação de 
+            postagem por parte do usuário com algumas validações.`
+
+        default:
+            titulo.innerHTML = `#001 - Calculadora`
+            instr.innerHTML = `Crie uma interface de botões que permita o usuário 
+            realizar cálculos.`
+        break
     }
 
     corpoMain.appendChild(janelaPrompt)
