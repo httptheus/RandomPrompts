@@ -23,7 +23,7 @@ function gerarPrompt(){     //Função principal: exibe um prompt aleatório.
     numRep = 0
 
     while (numRand <= 0){
-        numRand = parseInt(Math.random() * (17-1) + 1)  //[!!!]
+        numRand = parseInt(Math.random() * (19-1) + 1)  //[!!!]
         numRep = numRand
         if (numRand == numRep) { numRand += 1 }
     }
