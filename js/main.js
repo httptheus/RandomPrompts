@@ -23,7 +23,7 @@ function gerarPrompt(){     //Função principal: exibe um prompt aleatório.
     numRep = 0
 
     while (numRand <= 0){
-        numRand = parseInt(Math.random() * (15-1) + 1)
+        numRand = parseInt(Math.random() * (17-1) + 1)  //[!!!]
         numRep = numRand
         if (numRand == numRep) { numRand += 1 }
     }
@@ -172,11 +172,21 @@ function gerarPrompt(){     //Função principal: exibe um prompt aleatório.
             Uma vez que o post foi criado, um campo para inserir comentários estará disponível, 
             permitindo o usuário comentar na própria postagem. Crie condições para a criação de 
             postagem por parte do usuário com algumas validações.`
+        break
 
-        default:
-            titulo.innerHTML = `#001 - Calculadora`
-            instr.innerHTML = `Crie uma interface de botões que permita o usuário 
-            realizar cálculos.`
+        case 18:
+            titulo.innerHTML = `#018 - Caractere na tabela ASCII`
+            instr.innerHTML = `Num input de texto, permita que o usuário insira 
+            um caractere qualquer e retorne a informação na tela indicando a posição exata desse 
+            caractere na tabela ASCII.`
+        break
+
+        case 19:
+            titulo.innerHTML = `#019 - País A e País B`
+            instr.innerHTML = `O País A possui 80.000 habitantes, com uma taxa anual 
+            de crescimento de população de 3%, enquanto que o país B possui 200.000 habitantes, 
+            com uma taxa anual de crescimento de população de 1,5%. Exiba a quantidade de anos 
+            que o País A precisa para igualar ou superar a população do País B.`
         break
     }
 

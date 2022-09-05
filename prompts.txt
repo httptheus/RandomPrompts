@@ -91,3 +91,12 @@ pressionado, fará com que a postagem que o usuário criou apareça na tela.
 Uma vez que o post foi criado, um campo para inserir comentários estará disponível, 
 permitindo o usuário comentar na própria postagem. Crie condições para a criação de 
 postagem por parte do usuário com algumas validações.
+
+#018 - Caractere na tabela ASCII - Num input de texto, permita que o usuário insira 
+um caractere qualquer e retorne a informação na tela indicando a posição exata desse 
+caractere na tabela ASCII.
+
+#019 - País A e País B - O País A possui 80.000 habitantes, com uma taxa anual 
+de crescimento de população de 3%, enquanto que o país B possui 200.000 habitantes, 
+com uma taxa anual de crescimento de população de 1,5%. Exiba a quantidade de anos 
+que o País A precisa para igualar ou superar a população do País B.
