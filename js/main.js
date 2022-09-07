@@ -23,7 +23,7 @@ function gerarPrompt(){     //Função principal: exibe um prompt aleatório.
     numRep = 0
 
     while (numRand <= 0){
-        numRand = parseInt(Math.random() * (19-1) + 1)  //[!!!]
+        numRand = parseInt(Math.random() * (20-1) + 1)  //[!!!]
         numRep = numRand
         if (numRand == numRep) { numRand += 1 }
     }
@@ -187,6 +187,12 @@ function gerarPrompt(){     //Função principal: exibe um prompt aleatório.
             de crescimento de população de 3%, enquanto que o país B possui 200.000 habitantes, 
             com uma taxa anual de crescimento de população de 1,5%. Exiba a quantidade de anos 
             que o País A precisa para igualar ou superar a população do País B.`
+        break
+
+        case 20:
+            titulo.innerHTML = `#020 - Par ou Ímpar`
+            instr.innerHTML = `Exiba números de 1 a 256 no terminal. Exiba, junto de cada 
+            número, se ele é par ou ímpar.`
         break
     }
 

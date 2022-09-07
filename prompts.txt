@@ -100,3 +100,6 @@ caractere na tabela ASCII.
 de crescimento de população de 3%, enquanto que o país B possui 200.000 habitantes, 
 com uma taxa anual de crescimento de população de 1,5%. Exiba a quantidade de anos 
 que o País A precisa para igualar ou superar a população do País B.
+
+#020 - Par ou Ímpar - Exiba números de 1 a 256 no terminal. Exiba, junto de cada 
+número, se ele é par ou ímpar.
