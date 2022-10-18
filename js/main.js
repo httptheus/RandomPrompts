@@ -23,7 +23,7 @@ function gerarPrompt(){     //Função principal: exibe um prompt aleatório.
     numRep = 0
 
     while (numRand <= 0){
-        numRand = parseInt(Math.random() * (20-1) + 1)  //[!!!]
+        numRand = parseInt(Math.random() * (21-1) + 1)  //[!!!]
         numRep = numRand
         if (numRand == numRep) { numRand += 1 }
     }
@@ -194,6 +194,10 @@ function gerarPrompt(){     //Função principal: exibe um prompt aleatório.
             instr.innerHTML = `Exiba números de 1 a 256 no terminal. Exiba, junto de cada 
             número, se ele é par ou ímpar.`
         break
+
+        case 21:
+            titulo.innerHTML = `#021 - Relógio Digital`
+            instr.innerHTML = `Crie um relógio que funcione em tempo real, de acordo com o horário local.`
     }
 
     corpoMain.appendChild(janelaPrompt)

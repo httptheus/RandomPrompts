@@ -103,3 +103,5 @@ que o País A precisa para igualar ou superar a população do País B.
 
 #020 - Par ou Ímpar - Exiba números de 1 a 256 no terminal. Exiba, junto de cada 
 número, se ele é par ou ímpar.
+
+#021 - Relógio Digital - Crie um relógio digital que funcione em tempo real, de acordo com o horário atual.
