@@ -23,7 +23,7 @@ function gerarPrompt(){     //Função principal: exibe um prompt aleatório.
     numRep = 0
 
     while (numRand <= 0){
-        numRand = parseInt(Math.random() * (21-1) + 1)  //[!!!]
+        numRand = parseInt(Math.random() * (22-1) + 1)  //[!!!]
         numRep = numRand
         if (numRand == numRep) { numRand += 1 }
     }
@@ -94,7 +94,7 @@ function gerarPrompt(){     //Função principal: exibe um prompt aleatório.
             número final e um número de pulos. Exiba a contagem do número inicial até o número 
             final considerando o número de pulos. Valide se os números digitados são valores 
             inteiros; não são valores de caracteres; não são valores vazios; o valor de início 
-            não pode ser menor que o valor de fim || ele fará a contagem regressiva.`
+            não pode ser menor que o valor de fim ou ele fará a contagem regressiva.`
         break
 
         case 9:
@@ -198,6 +198,15 @@ function gerarPrompt(){     //Função principal: exibe um prompt aleatório.
         case 21:
             titulo.innerHTML = `#021 - Relógio Digital`
             instr.innerHTML = `Crie um relógio que funcione em tempo real, de acordo com o horário local.`
+        break
+
+        case 22:
+            titulo.innerHTML = `#022 - Registro de Produto e Valor`
+            instr.innerHTML = `Permita o usuário adicionar itens que compõe o nome de um 
+            produto e seu preço respectivo. Na medida em que uma lista de valores é feita, permita que 
+            o usuário retorne o valor total dos produtos. Os produtos podem ser removidos se o usuário 
+            desejar remover um produto.`
+        break
     }
 
     corpoMain.appendChild(janelaPrompt)

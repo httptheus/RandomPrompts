@@ -40,7 +40,7 @@ o ano de nascimento é maior que o ano atual.
 número final e um número de pulos. Exiba a contagem do número inicial até o número 
 final considerando o número de pulos. Valide se os números digitados são valores 
 inteiros; não são valores de caracteres; não são valores vazios; o valor de início 
-não pode ser menor que o valor de fim || ele fará a contagem regressiva.
+não pode ser menor que o valor de fim ou ele fará a contagem regressiva.
 
 #009 - Tabuada: Crie uma interface que receba em um input um valor positivo inteiro. 
 Realize o cálculo de multiplicação exibindo o valor dentro de um select com a 
@@ -105,3 +105,8 @@ que o País A precisa para igualar ou superar a população do País B.
 número, se ele é par ou ímpar.
 
 #021 - Relógio Digital - Crie um relógio digital que funcione em tempo real, de acordo com o horário atual.
+
+#022 - Registro de Produto e Valor - Permita o usuário adicionar itens que compõe o nome de um 
+produto e seu preço respectivo. Na medida em que uma lista de valores é feita, permita que 
+o usuário retorne o valor total dos produtos. Os produtos podem ser removidos se o usuário 
+desejar remover um produto.
